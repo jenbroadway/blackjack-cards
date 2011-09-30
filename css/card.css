@@ -5,17 +5,17 @@
 	border: 2px ridge #999;
 	padding: 10px;
 	font: 60px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	    -moz-border-radius: 20px;
-	    -webkit-border-radius: 20px;
-	    -khtml-border-radius: 20px;
-	    border-radius: 20px;
+	    -moz-border-radius: 0px;
+	    -webkit-border-radius: 0px;
+	    -khtml-border-radius: 0px;
+	    border-radius: 0px;
 	
 }
 .card-back {
-	background-image: url('../images/cardback.jpg');
+	background-image: url('');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: 6633FF;
+
 }
 #value-top {
     
