@@ -1,0 +1,40 @@
+.card {
+	position: absolute;
+	width:250px;
+	height:350px;
+	border: 2px ridge #999;
+	padding: 10px;
+	font: 60px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	    -moz-border-radius: 20px;
+	    -webkit-border-radius: 20px;
+	    -khtml-border-radius: 20px;
+	    border-radius: 20px;
+	
+}
+.card-back {
+	background-image: url('../images/cardback.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: 6633FF;
+}
+#value-top {
+    
+}
+#rank {
+   margin: 0px 0px 0px 7px; 
+}
+#house {
+    line-height:45px;
+}
+#value-bottom {
+	position: inherit;
+	bottom:0%;
+	right: 0%;
+	margin-right:10px;
+    -moz-transform:rotate(180deg); -moz-transform:skewx(25deg) translatex(150px);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+ }
+
