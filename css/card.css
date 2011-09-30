@@ -1,9 +1,15 @@
+.wrapper {
+	position:relative;
+	width:250px;
+	height:350px;
+	padding:15px;
+}
 .card {
 	position: absolute;
 	width:250px;
 	height:350px;
 	border: 2px ridge #999;
-	padding: 10px;
+	padding-left: 10px;
 	font: 60px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	    -moz-border-radius: 0px;
 	    -webkit-border-radius: 0px;
@@ -37,4 +43,6 @@
 	-ms-transform:rotate(180deg);
 	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
  }
-
+.clear {
+	clear: all;
+}
